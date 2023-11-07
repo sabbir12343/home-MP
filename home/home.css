@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5vw;
+}
+.box1{
+    width: 23%;
+    margin: 50px 0px;
+    background-color: rgb(241, 239, 239);
+    /* padding: 60px 20px; */
+    /* border: 1px solid black; */
+    padding: 20px 10px;
+    box-shadow: rgb(212, 210, 210) 1px 1px 2px 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    text-align: center;
+    padding: 40px;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.feature {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Add more CSS for styling and responsiveness as needed */
